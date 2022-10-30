@@ -1,5 +1,10 @@
 # Hockey Line Up
 
+### Hacktoberfest 2022
+Last days before the end. Still easy task to do to complete the challenge and to contribute.
+- Look at issues to select a task.
+- First good PR will be accepted.
+
 ## Description
 
 With Hockey Line Up, you can know who will play each week and last weeks. Manager can modify line up and send new line up on facebook easily.
@@ -7,11 +12,11 @@ With Hockey Line Up, you can know who will play each week and last weeks. Manage
 ## Planning
 
 - [ ] Show Line Up (Public/Private)
-- [ ] Admin Access
+- [ ] Add/Edit Leagues
+- [x] Admin Access
 - [ ] List Players
 - [ ] Add/Edit Players
 - [ ] Add Schedule
-- [ ] 
 
 ## Initial Setup
 1. `git clone`
