@@ -39,6 +39,6 @@ docker run --rm \
 - [Readme Laravel](LARAVEL-README.md)
 
 ## Contribution 
-- [Contribution Rules](https://github.com/karlyn33/hockeyLineup/blob/master/CONTRIBUTING.md)
+- [Contribution Rules](CONTRIBUTING.md)
 
 
