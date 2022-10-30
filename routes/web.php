@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LeagueController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,4 +22,8 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+Route::group(['middleware' => ['auth', 'verified']], function () {
+    Route::get('/league', [LeagueController::class, 'list'])->name('league');
+});
+
+require __DIR__ . '/auth.php';
