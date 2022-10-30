@@ -7,11 +7,18 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 bg-white border-b border-gray-200">
-                    You're logged in!
-                </div>
+
+            <div class="m-10">
+                <h1 class="font-bold text-xl tracking-wide">Leagues</h1>
             </div>
+
+            @foreach($leagues as $league)
+                <div class="m-10">
+                    <h1 class="text-gray-500 text-xl tracking-wide">{{ $league->name }}</h1>
+                </div>
+            @endforeach
+
         </div>
+
     </div>
 </x-app-layout>
