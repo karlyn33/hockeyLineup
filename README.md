@@ -38,3 +38,7 @@ docker run --rm \
 ### Other links
 - [Readme Laravel](LARAVEL-README.md)
 
+## Contribution 
+- [Contribution Rules](CONTRIBUTING.md)
+
+
