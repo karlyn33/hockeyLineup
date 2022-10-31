@@ -36,9 +36,5 @@ docker run --rm \
 7. Install migration `./vendor/bin/sail php artisan migrate`
 
 ### Other links
-- [Readme Laravel](LARAVEL-README.md)
-
-## Contribution 
 - [Contribution Rules](CONTRIBUTING.md)
-
-
+- [Readme Laravel](LARAVEL-README.md)

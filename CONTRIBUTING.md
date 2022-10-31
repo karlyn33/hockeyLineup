@@ -1,8 +1,10 @@
 # Contribution Rules📚:
+- Every contribution is welcome.
+- Most of the information to start helping are in the README. Don't hesitate to add more to help others to contribute.
+- Ask questions to clarify issues when needed.
 
--  PR/MRS MUST BE WITHIN THE BOUNDS OF HACKTOBERFEST
--  PR/MRS MUST NOT BE SPAMMY
--  PR/MRS MUST BE IN A REPO TAGGED WITH THE “HACKTOBERFEST” TOPIC, OR HAVE THE “HACKTOBERFEST-ACCEPTED” LABEL
--  PULL/MERGE REQUESTS MUST BE APPROVED BY A MAINTAINER
--  PR/MRS PASS ALL THE CHECKS ABOVE, IT WILL BE ACCEPTED FOR HACKTOBERFEST AFTER THE 7-DAY REVIEW PERIOD.
--  AVOID SUBMITTING LOW-QUALITY PULL/MERGE REQUEST - Avoid fixing typos or optimise image 
+## Hacktoberfest good habits
+-  PR/MRS must not be spammy.
+-  Avoid submitting low-quality PR/MRS - Avoid fixing typos or optimise image. 
+
+Thanks! :heart: :heart: :heart:
