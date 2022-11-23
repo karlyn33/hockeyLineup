@@ -11,13 +11,15 @@
             <div class="m-10">
                 <h1 class="font-bold text-xl tracking-wide">Leagues</h1>
             </div>
-
+            @if($leagues->count()>0)
             @foreach($leagues as $league)
                 <div class="m-10">
                     <h1 class="text-gray-500 text-xl tracking-wide">{{ $league->name }}</h1>
                 </div>
             @endforeach
-
+            @else
+            <div>League is empty</div>
+            @endif
         </div>
 
     </div>

@@ -24,6 +24,12 @@ Route::get('/dashboard', function () {
 
 Route::group(['middleware' => ['auth', 'verified']], function () {
     Route::get('/league', [LeagueController::class, 'list'])->name('league');
+    Route::get('/league/index', [LeagueController::class, 'index'])->name('league.index');
+    Route::get('/league/create', [LeagueController::class, 'create'])->name('league.create');
+    Route::post('/league/store', [LeagueController::class, 'store'])->name('league.store');
+    Route::get('/league/{id}/edit', [LeagueController::class, 'edit'])->name('league.edit');
+    Route::put('/league/{id}/update', [LeagueController::class, 'update'])->name('league.update');
+    Route::delete('/league/{id}/destroy', [LeagueController::class, 'destroy'])->name('league.destroy');
 });
 
 require __DIR__ . '/auth.php';
